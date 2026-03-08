@@ -1,8 +1,6 @@
 # Playwright BDD Automation Framework
 
-## ⚠ Internal Project Notice
-
-This automation framework is strictly intended for **internal use only**.
+## ⚠ Project Notice
 
 * No reports, logs, artifacts, or results should be published publicly.
 * CI artifacts must remain within internal systems.
@@ -24,7 +22,7 @@ It is designed for scalable automation in enterprise environments.
 # Tech Stack
 
 * Playwright
-* TypeScript
+* JavaScript
 * Cucumber (BDD)
 * Allure Reporting
 * Winston Logging
@@ -319,18 +317,18 @@ Example stages:
 
 ## GitHub Actions
 
-GitHub workflow is available for optional CI execution in private repositories.
+GitHub workflow is available for optional CI execution in repositories.
 
 ---
 
-# Slack Notifications
+# Notifications
 
-Slack notifications are sent when:
+notifications are sent when:
 
 * pipeline fails
 * test failures occur
 
-Slack webhook must be configured through environment variables.
+webhook must be configured through environment variables.
 
 ---
 
@@ -360,10 +358,6 @@ Trace files are generated automatically on failure.
 
 # Maintainer
 
-Automation Framework maintained internally by the QA Engineering team.
+Automation Framework maintained internally by the QA team.
 
 ---
-
-# License
-
-Internal project – not intended for public distribution.
